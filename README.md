@@ -43,3 +43,44 @@ Este repositorio contiene la solución de la **Actividad 1** del curso de Progra
 ---
 
 ## Estructura del Proyecto
+
+---
+
+## Cómo Ejecutar
+
+### Compilar los archivos Java:
+```bash
+cd src
+javac *.java
+```
+
+### Ejecutar cada ejercicio:
+```bash
+java Ejercicio4_EdadesJuan
+java Ejercicio5_PruebaEscritorio
+java Ejercicio12_SalarioEmpleado
+java Ejercicio14_CuadradoCubo
+java Ejercicio17_Circulo
+```
+
+---
+
+## Conceptos de POO Aplicados
+
+- **Encapsulación:** Atributos privados con acceso mediante métodos públicos
+- **Constructores:** Inicialización de objetos con y sin parámetros
+- **Métodos:** Métodos privados para operaciones internas, públicos para acceso externo
+- **Getters y Setters:** Acceso controlado a los atributos
+- **Modularidad:** Código organizado y reutilizable
+
+---
+
+## Evaluación
+
+**Valor:** 10%
+**Fecha de Entrega:** Jueves, 17 de septiembre de 2026
+**Correo de Envío:** ia.walterarboleda@gmail.com
+
+---
+
+**Última Actualización:** Septiembre 2026
