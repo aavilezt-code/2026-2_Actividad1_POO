@@ -43,6 +43,15 @@ Este repositorio contiene la solución de la **Actividad 1** del curso de Progra
 ---
 
 ## Estructura del Proyecto
+2026-2_Actividad1_POO/
+├── src/
+│ ├── Ejercicio4_EdadesJuan.java
+│ ├── Ejercicio5_PruebaEscritorio.java
+│ ├── Ejercicio12_SalarioEmpleado.java
+│ ├── Ejercicio14_CuadradoCubo.java
+│ └── Ejercicio17_Circulo.java
+├── README.md
+└── .gitignore
 
 ---
 
