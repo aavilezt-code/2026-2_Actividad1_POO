@@ -1,7 +1,7 @@
 /**
  * Ejercicio Propuesto No 14
- * Tema: Cálculo de cuadrado y cubo de un número
- * Descripción: Lee un número y obtiene su cuadrado y su cubo.
+ * Tema: Calculo de cuadrado y cubo de un numero
+ * Descripcion: Lee un numero y obtiene su cuadrado y su cubo.
  */
 
 public class Ejercicio14_CuadradoCubo {
@@ -11,7 +11,7 @@ public class Ejercicio14_CuadradoCubo {
     private double cubo;
     
     /**
-     * Constructor que recibe el número a calcular
+     * Constructor que recibe el numero a calcular
      */
     public Ejercicio14_CuadradoCubo(double numero) {
         this.numero = numero;
@@ -19,7 +19,7 @@ public class Ejercicio14_CuadradoCubo {
     }
     
     /**
-     * Calcula el cuadrado y el cubo del número
+     * Calcula el cuadrado y el cubo del numero
      */
     private void calcularPotencias() {
         this.cuadrado = this.numero * this.numero;
@@ -27,28 +27,28 @@ public class Ejercicio14_CuadradoCubo {
     }
     
     /**
-     * Obtiene el número original
+     * Obtiene el numero original
      */
     public double getNumero() {
         return this.numero;
     }
     
     /**
-     * Obtiene el cuadrado del número
+     * Obtiene el cuadrado del numero
      */
     public double getCuadrado() {
         return this.cuadrado;
     }
     
     /**
-     * Obtiene el cubo del número
+     * Obtiene el cubo del numero
      */
     public double getCubo() {
         return this.cubo;
     }
     
     /**
-     * Establece un nuevo número y recalcula
+     * Establece un nuevo numero y recalcula
      */
     public void setNumero(double numero) {
         this.numero = numero;
@@ -56,11 +56,11 @@ public class Ejercicio14_CuadradoCubo {
     }
     
     /**
-     * Muestra los resultados del cálculo
+     * Muestra los resultados del calculo
      */
     public void mostrarResultados() {
-        System.out.println("\n=== CÁLCULO DE CUADRADO Y CUBO ===");
-        System.out.printf("Número ingresado: %.2f%n", this.numero);
+        System.out.println("\n=== CALCULO DE CUADRADO Y CUBO ===");
+        System.out.printf("Numero ingresado: %.2f%n", this.numero);
         System.out.println("-".repeat(35));
         System.out.printf("Cuadrado (%.2f²): %.2f%n", this.numero, this.cuadrado);
         System.out.printf("Cubo (%.2f³): %.2f%n", this.numero, this.cubo);
@@ -68,11 +68,11 @@ public class Ejercicio14_CuadradoCubo {
     }
     
     /**
-     * Método main para probar el ejercicio
+     * Metodo main para probar el ejercicio
      */
     public static void main(String[] args) {
         System.out.println("Ejercicio Propuesto No 14");
-        System.out.println("Cálculo de Cuadrado y Cubo de un Número\n");
+        System.out.println("Calculo de Cuadrado y Cubo de un Numero\n");
         
         // Ejemplo 1
         Ejercicio14_CuadradoCubo calc1 = new Ejercicio14_CuadradoCubo(5);
@@ -86,7 +86,7 @@ public class Ejercicio14_CuadradoCubo {
         Ejercicio14_CuadradoCubo calc3 = new Ejercicio14_CuadradoCubo(2.5);
         calc3.mostrarResultados();
         
-        // Ejemplo 4 con número negativo
+        // Ejemplo 4 con numero negativo
         Ejercicio14_CuadradoCubo calc4 = new Ejercicio14_CuadradoCubo(-3);
         calc4.mostrarResultados();
     }

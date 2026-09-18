@@ -1,7 +1,7 @@
 /**
  * Ejercicio Resuelto No 5
  * Tema: Prueba de escritorio (Seguimiento de instrucciones)
- * Descripción: Realiza un seguimiento paso a paso de las siguientes instrucciones:
+ * Descripcion: Realiza un seguimiento paso a paso de las siguientes instrucciones:
  * SUMA = 0
  * X = 20
  * SUMA = SUMA + X
@@ -49,7 +49,7 @@ public class Ejercicio5_PruebaEscritorio {
         System.out.printf("Paso 4: Y = 40 → Y = %.2f%n", this.y);
         
         // Paso 5: X = X + Y ** 2
-        // Aquí Y**2 significa Y elevado a la potencia 2 (Y cuadrado)
+        // Aqui Y**2 significa Y elevado a la potencia 2 (Y cuadrado)
         double valorAnteriorX = this.x;
         this.x = this.x + Math.pow(this.y, 2);
         System.out.printf("Paso 5: X = X + Y ** 2 → X = %.2f + %.2f = %.2f%n", 
@@ -89,7 +89,7 @@ public class Ejercicio5_PruebaEscritorio {
     }
     
     /**
-     * Método main para ejecutar el ejercicio
+     * Metodo main para ejecutar el ejercicio
      */
     public static void main(String[] args) {
         System.out.println("Ejercicio Resuelto No 5");

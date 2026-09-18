@@ -1,9 +1,9 @@
 /**
  * Ejercicio Propuesto No 12
- * Tema: Cálculo de salario del empleado
- * Descripción: Un empleado trabaja 48 horas en la semana a razón de $5.000 hora.
- * El porcentaje de retención en la fuente es del 12.5% del salario bruto.
- * Se desea calcular: salario bruto, retención en la fuente y salario neto del trabajador.
+ * Tema: Calculo de salario del empleado
+ * Descripcion: Un empleado trabaja 48 horas en la semana a razon de $5.000 hora.
+ * El porcentaje de retencion en la fuente es del 12.5% del salario bruto.
+ * Se desea calcular: salario bruto, retencion en la fuente y salario neto del trabajador.
  */
 
 public class Ejercicio12_SalarioEmpleado {
@@ -26,23 +26,23 @@ public class Ejercicio12_SalarioEmpleado {
     }
     
     /**
-     * Constructor con valores por defecto (48 horas, $5.000 hora, 12.5% retención)
+     * Constructor con valores por defecto (48 horas, $5.000 hora, 12.5% retencion)
      */
     public Ejercicio12_SalarioEmpleado() {
         this(48, 5000, 12.5);
     }
     
     /**
-     * Calcula el salario bruto, retención y salario neto
+     * Calcula el salario bruto, retencion y salario neto
      */
     private void calcularSalarios() {
         // Calcular salario bruto: horas trabajadas * valor por hora
         this.salarioBruto = this.horasSemana * this.valorHora;
         
-        // Calcular retención en la fuente: salario bruto * porcentaje de retención
+        // Calcular retencion en la fuente: salario bruto * porcentaje de retencion
         this.retencionFuente = this.salarioBruto * (this.tasaRetencion / 100.0);
         
-        // Calcular salario neto: salario bruto - retención
+        // Calcular salario neto: salario bruto - retencion
         this.salarioNeto = this.salarioBruto - this.retencionFuente;
     }
     
@@ -54,7 +54,7 @@ public class Ejercicio12_SalarioEmpleado {
     }
     
     /**
-     * Obtiene la retención en la fuente
+     * Obtiene la retencion en la fuente
      */
     public double getRetencionFuente() {
         return this.retencionFuente;
@@ -82,7 +82,7 @@ public class Ejercicio12_SalarioEmpleado {
     }
     
     /**
-     * Obtiene la tasa de retención
+     * Obtiene la tasa de retencion
      */
     public double getTasaRetencion() {
         return this.tasaRetencion;
@@ -92,24 +92,24 @@ public class Ejercicio12_SalarioEmpleado {
      * Muestra el resumen del salario del empleado
      */
     public void mostrarResumenSalario() {
-        System.out.println("\n=== CÁLCULO DE SALARIO DEL EMPLEADO ===");
+        System.out.println("\n=== CALCULO DE SALARIO DEL EMPLEADO ===");
         System.out.printf("Horas trabajadas en la semana: %.0f horas%n", this.horasSemana);
         System.out.printf("Valor por hora: $%.2f%n", this.valorHora);
-        System.out.printf("Tasa de retención en la fuente: %.2f%%%n", this.tasaRetencion);
+        System.out.printf("Tasa de retencion en la fuente: %.2f%%%n", this.tasaRetencion);
         System.out.println("\n" + "-".repeat(40));
         System.out.printf("Salario Bruto: $%.2f%n", this.salarioBruto);
-        System.out.printf("Retención en la Fuente (%.2f%%): $%.2f%n", this.tasaRetencion, this.retencionFuente);
+        System.out.printf("Retencion en la Fuente (%.2f%%): $%.2f%n", this.tasaRetencion, this.retencionFuente);
         System.out.println("-".repeat(40));
         System.out.printf("Salario Neto: $%.2f%n", this.salarioNeto);
         System.out.println("=========================================\n");
     }
     
     /**
-     * Método main para probar el ejercicio
+     * Metodo main para probar el ejercicio
      */
     public static void main(String[] args) {
         System.out.println("Ejercicio Propuesto No 12");
-        System.out.println("Cálculo de Salario del Empleado\n");
+        System.out.println("Calculo de Salario del Empleado\n");
         
         // Crear empleado con datos del problema
         Ejercicio12_SalarioEmpleado empleado = new Ejercicio12_SalarioEmpleado();

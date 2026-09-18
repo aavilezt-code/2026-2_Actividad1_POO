@@ -1,11 +1,11 @@
 /**
  * Ejercicio Resuelto No 4
  * Tema: Edades de la familia de Juan
- * Descripción: A partir de la edad de Juan, se calcula la edad de sus hermanos 
+ * Descripcion: A partir de la edad de Juan, se calcula la edad de sus hermanos 
  * y de su madre, donde:
  * - Alberto tiene 2/3 de la edad de Juan
  * - Ana tiene 4/3 de la edad de Juan
- * - La mamá tiene la suma de las edades de los tres hijos
+ * - La mama tiene la suma de las edades de los tres hijos
  */
 
 public class Ejercicio4_EdadesJuan {
@@ -54,7 +54,7 @@ public class Ejercicio4_EdadesJuan {
     }
     
     /**
-     * Obtiene la edad de la mamá
+     * Obtiene la edad de la mama
      */
     public double getEdadMama() {
         return this.edadMama;
@@ -68,16 +68,16 @@ public class Ejercicio4_EdadesJuan {
         System.out.printf("Edad de Juan: %.2f años%n", this.edadJuan);
         System.out.printf("Edad de Alberto: %.2f años%n", this.edadAlberto);
         System.out.printf("Edad de Ana: %.2f años%n", this.edadAna);
-        System.out.printf("Edad de la Mamá: %.2f años%n", this.edadMama);
+        System.out.printf("Edad de la Mama: %.2f años%n", this.edadMama);
         System.out.println("=====================================\n");
     }
     
     /**
-     * Método main para probar el ejercicio
+     * Metodo main para probar el ejercicio
      */
     public static void main(String[] args) {
         System.out.println("Ejercicio Resuelto No 4");
-        System.out.println("Cálculo de edades de la familia de Juan\n");
+        System.out.println("Calculo de edades de la familia de Juan\n");
         
         // Crear instancia con edad de Juan
         Ejercicio4_EdadesJuan familia = new Ejercicio4_EdadesJuan(30);
