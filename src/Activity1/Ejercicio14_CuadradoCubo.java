@@ -64,7 +64,7 @@ public class Ejercicio14_CuadradoCubo {
         System.out.println("-".repeat(35));
         System.out.printf("Cuadrado (%.2f²): %.2f%n", this.numero, this.cuadrado);
         System.out.printf("Cubo (%.2f³): %.2f%n", this.numero, this.cubo);
-        System.out.println("===================================%n");
+        System.out.println("===================================\n");
     }
     
     /**
