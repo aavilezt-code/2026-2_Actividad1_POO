@@ -30,7 +30,7 @@ public class Ejercicio5_PruebaEscritorio {
      * Ejecuta el algoritmo paso a paso
      */
     public void ejecutarAlgoritmo() {
-        System.out.println("\n=== PRUEBA DE ESCRITORIO - EJERCICIO 5 ===%n");
+        System.out.println("\n=== PRUEBA DE ESCRITORIO - EJERCICIO 5 ===\n");
         
         // Paso 1: SUMA = 0
         this.suma = 0;
@@ -64,7 +64,7 @@ public class Ejercicio5_PruebaEscritorio {
         // Paso 7: Mostrar el resultado final
         System.out.println("\n" + "=".repeat(40));
         System.out.printf("EL VALOR DE LA SUMA ES: %.2f%n", this.suma);
-        System.out.println("=".repeat(40) + "%n");
+        System.out.println("=".repeat(40) + "\n");
     }
     
     /**
