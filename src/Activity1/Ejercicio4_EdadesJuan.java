@@ -69,7 +69,7 @@ public class Ejercicio4_EdadesJuan {
         System.out.printf("Edad de Alberto: %.2f años%n", this.edadAlberto);
         System.out.printf("Edad de Ana: %.2f años%n", this.edadAna);
         System.out.printf("Edad de la Mama: %.2f años%n", this.edadMama);
-        System.out.println("=====================================%n");
+        System.out.println("=====================================\n");
     }
     
     /**
