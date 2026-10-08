@@ -101,7 +101,7 @@ public class Ejercicio12_SalarioEmpleado {
         System.out.printf("Retencion en la Fuente (%.2f%%): $%.2f%n", this.tasaRetencion, this.retencionFuente);
         System.out.println("-".repeat(40));
         System.out.printf("Salario Neto: $%.2f%n", this.salarioNeto);
-        System.out.println("========================================="\n");
+        System.out.println("=========================================\n");
     }
     
     /**
