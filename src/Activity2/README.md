@@ -10,11 +10,11 @@ objetos con Java y UML" de Leonardo Bermón Angarita.
 
 1. **Ejercicio 2.1** - Definición de clases (Página 63)
    - Archivo: `Persona.java`
-   - Concepto: Modelar una persona con atributos y constructor
+   - Concepto: Modelar una persona con atributos y constructor.
 
-2. **Ejercicio 2.2** - Atributos con tipos primitivos (Página 66)
-   - Archivo: `Automovil.java`
-   - Concepto: Múltiples tipos primitivos, getters y setters
+2. **Ejercicio 2.2 - Atributos con tipos primitivos y enumerados (Página 66)
+   - Archivo: `Planeta.java`
+   - Concepto: Modelar un planeta utilizando atributos con tipos de datos primitivos y enumerados (enums), implementación de constructores, getters, setters y métodos      de cálculo (como densidad y masa).
 
 3. **Ejercicio 2.3** - Estado de un objeto (Página 73)
    - **Carpeta:** `codigos ejercicio 2.3/`
@@ -25,11 +25,11 @@ objetos con Java y UML" de Leonardo Bermón Angarita.
 
 4. **Ejercicio 2.4** - Métodos con y sin valores de retorno (Página 86)
    - Archivo: `CuentaBancaria.java`
-   - Concepto: Métodos void y retorno boolean
+   - Concepto: Métodos void y retorno boolean.
 
 5. **Ejercicio 2.5** - Métodos con parámetros (Página 95)
    - Archivo: `Pelicula.java`
-   - Concepto: Métodos privados, enumeraciones, validación
+   - Concepto: Métodos privados, enumeraciones, validación.
 
 ## Compilación
 
