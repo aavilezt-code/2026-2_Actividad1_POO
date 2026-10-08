@@ -28,8 +28,8 @@ programación orientada a objetos con Java y UML" de Leonardo Bermón Angarita.
 
 Cada actividad tiene su propia carpeta con su README.md específico y código fuente.
 
-- [Actividad 1](./Actividad_1/README.md)
-- [Actividad 2](./Actividad_2/README.md)
+- [Actividad 1](./src/Activity1/README.md)
+- [Actividad 2](./src/Activity2/README.md)
 
 ## Requisitos
 
