@@ -77,7 +77,7 @@ public class Ejercicio17_Circulo {
         System.out.println("-".repeat(28));
         System.out.printf("Area del circulo: %.4f unidades²%n", this.area);
         System.out.printf("Perimetro (Circunferencia): %.4f unidades%n", this.perimetro);
-        System.out.println("============================%n");
+        System.out.println("============================\n");
     }
     
     /**
@@ -107,6 +107,6 @@ public class Ejercicio17_Circulo {
             circulo2.getRadio(), circulo2.getArea());
         System.out.printf("Diferencia de area: %.4f%n", 
             circulo2.getArea() - circulo1.getArea());
-        System.out.println("===============================%n");
+        System.out.println("===============================\n");
     }
 }
