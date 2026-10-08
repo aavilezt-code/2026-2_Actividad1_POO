@@ -17,9 +17,11 @@ objetos con Java y UML" de Leonardo Bermón Angarita.
    - Concepto: Múltiples tipos primitivos, getters y setters
 
 3. **Ejercicio 2.3** - Estado de un objeto (Página 73)
+   - **Carpeta:** `codigos ejercicio 2.3/`
    - Archivos: `Circulo.java`, `Rectangulo.java`, `Cuadrado.java`, 
               `TrianguloRectangulo.java`, `PruebaFiguras.java`
    - Concepto: Métodos que retornan valores, cálculos matemáticos
+   - Nota: Todos los códigos de este ejercicio están organizados en la carpeta **`codigos ejercicio 2.3`** para mantener una mejor estructura del proyecto.
 
 4. **Ejercicio 2.4** - Métodos con y sin valores de retorno (Página 86)
    - Archivo: `CuentaBancaria.java`
