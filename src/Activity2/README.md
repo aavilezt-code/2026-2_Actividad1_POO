@@ -42,7 +42,7 @@ javac *.java
 
 ```bash
 java Persona
-java Automovil
+java Planeta
 java PruebaFiguras
 java CuentaBancaria
 java Pelicula
