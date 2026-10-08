@@ -48,14 +48,14 @@ java Pelicula
 
 ## Conceptos de POO
 
-- ✅ Encapsulación
-- ✅ Constructores parametrizados
-- ✅ Getters y Setters
-- ✅ Métodos privados y públicos
-- ✅ Tipos primitivos
-- ✅ Enumeraciones
-- ✅ Métodos con retorno
-- ✅ Validación de datos
+- Encapsulación
+- Constructores parametrizados
+- Getters y Setters
+- Métodos privados y públicos
+- Tipos primitivos
+- Enumeraciones
+- Métodos con retorno
+- Validación de datos
 
 ## Fecha de Entrega
 
