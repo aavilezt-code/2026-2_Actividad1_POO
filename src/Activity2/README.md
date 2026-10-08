@@ -12,7 +12,7 @@ objetos con Java y UML" de Leonardo Bermón Angarita.
    - Archivo: `Persona.java`
    - Concepto: Modelar una persona con atributos y constructor.
 
-2. **Ejercicio 2.2 - Atributos con tipos primitivos y enumerados (Página 66)
+2. **Ejercicio 2.2** - Atributos con tipos primitivos y enumerados (Página 66)
    - Archivo: `Planeta.java`
    - Concepto: Modelar un planeta utilizando atributos con tipos de datos primitivos y enumerados (enums), implementación de constructores, getters, setters y métodos      de cálculo (como densidad y masa).
 
