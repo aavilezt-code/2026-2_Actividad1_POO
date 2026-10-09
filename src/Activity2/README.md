@@ -21,7 +21,7 @@ objetos con Java y UML" de Leonardo Bermón Angarita.
    - Concepto: Modelar un automóvil con múltiples atributos, constructores parametrizados, getters y setters, y métodos de comportamiento (acelerar, desacelerar).
 
 4. **Ejercicio 2.4** - Estado de un objeto (Página 73)
-   - **Carpeta:** `codigos ejercicio 2.4/`
+   - **Carpeta:** `codigos ejercicio 2.4`
    - Archivos: `Circulo.java`, `Rectangulo.java`, `Cuadrado.java`, 
               `TrianguloRectangulo.java`, `PruebaFiguras.java`
    - Concepto: Métodos que retornan valores, cálculos matemáticos
