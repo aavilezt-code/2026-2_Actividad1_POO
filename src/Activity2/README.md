@@ -31,9 +31,7 @@ objetos con Java y UML" de Leonardo Bermón Angarita.
    - Archivo: `CuentaBancaria.java`
    - Concepto: Métodos void y retorno boolean.
 
-6. **Ejercicio 2.6** - Métodos con parámetros (Página 95)
-   - Archivo: `Pelicula.java`
-   - Concepto: Métodos privados, enumeraciones, validación.
+
 
 ## Compilación
 
@@ -50,7 +48,6 @@ java Planeta
 java Automovil
 java PruebaFiguras
 java CuentaBancaria
-java Pelicula
 ```
 
 ## Conceptos de POO
