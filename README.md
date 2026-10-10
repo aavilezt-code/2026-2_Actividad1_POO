@@ -40,3 +40,4 @@ Cada actividad tiene su propia carpeta con su README.md específico y código fu
 ## Autor
 
 Andres Felipe Avilez Tejada
+Simón Antonio Oyola Jiménez
